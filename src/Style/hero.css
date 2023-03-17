@@ -1,0 +1,83 @@
+.hero__section {
+  padding-top: 200px;
+}
+.hero__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.hero__content,
+.hero__image {
+  width: 50%;
+}
+.hero__image img {
+  width: 100%;
+}
+
+.hero__content h2 {
+  font-size: 3rem;
+  line-height: 65px;
+}
+.highlights {
+  color: var(--primary-color);
+}
+
+.hero__content p {
+  margin-top: 1.1rem;
+  line-height: 40px;
+}
+
+.hero__btns {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hero__start__btn,
+.discover__btn {
+  padding: 10px 20px;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hero__start__btn {
+  background-color: var(--btn-secondary-bg);
+  border: 1px solid var(--btn-primary-bg);
+}
+
+.discover__btn {
+  background-color: var(--btn-primary-bg);
+}
+.light-theme .discover__btn {
+  background-color: var(--btn-secondary-bg);
+  border: 1px solid var(--btn-primary-bg);
+}
+
+.hero__start__btn:hover {
+  background-color: rgba(91, 136, 233, 0.467);
+}
+
+.discover__btn:hover {
+  background-color: var(--btn-secondary-bg);
+}
+
+.light-theme .discover__btn:hover {
+  background-color: rgba(91, 136, 233, 0.467);
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__content h2 {
+    font-size: 1.3rem;
+    line-height: 30px;
+  }
+  .hero__btns {
+    gap: 4px;
+  }
+  .hero__start__btn,
+  .discover__btn {
+    padding: 8px 4px;
+  }
+}

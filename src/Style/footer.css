@@ -1,0 +1,38 @@
+.footer {
+  padding: 60px 0px;
+}
+
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.footer__logo {
+  width: 60%;
+}
+.footer__logo h2 {
+  color: var(--primary-color);
+}
+.footer__quick__link {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.quick__link__title {
+  color: var(--primary-color);
+  font-size: 1.1rem;
+  font-weight: 400;
+}
+
+.quick__link {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.quick__link__item a:hover {
+  color: var(--primary-color);
+}
+.copy__wright {
+  color: #fff;
+  margin-top: 40px;
+}
